@@ -19,14 +19,14 @@ Quita nombres, RFC, CURP, cuentas, domicilios y contraseñas de un documento ant
 
 - Todo ocurre en tu navegador: la política de seguridad del sitio le prohíbe conectarse a internet (`connect-src 'none'`), y cualquiera puede comprobarlo en sus cabeceras.
 - Pensado para documentos mexicanos: RFC, CURP, clave de elector, NSS, CLABE, domicilios, expedientes y más.
-- El código es privado; el repositorio explica cómo funciona y cómo se mide, con una prueba ciega de 882 datos en documentos que el motor nunca había visto.
+- El código es privado; el repositorio explica cómo funciona y cómo se mide, con una prueba ciega de 882 datos en documentos que el motor nunca había visto (medición interna).
 
 ### [Arbitration Agreement Builder](https://github.com/josemanuelosorio/arbitration-agreement-builder)
 
 Cuestionario con lógica condicional que arma una cláusula de arbitraje. Lo construí durante una pasantía en 2026.
 
 - El contenido es dato: preguntas, condiciones y fragmentos de cláusula viven en un modelo JSON que un abogado puede editar sin tocar el motor.
-- Motor genérico, validador de esquema y 45 comprobaciones golden que fijan cada combinación de respuestas a su cláusula exacta.
+- Motor genérico, validador de esquema y 45 comprobaciones golden sobre combinaciones canónicas de respuestas, cada una fijada a su cláusula exacta.
 - El código es privado: el repositorio describe el trabajo sin publicarlo.
 
 ## Un bug, de principio a fin
