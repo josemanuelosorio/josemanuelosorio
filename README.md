@@ -13,13 +13,13 @@ Herramienta gratuita para entender tus obligaciones fiscales si generas ingresos
 - La calculadora se prueba en un navegador real contra 30 casos calculados aparte.
 - HTML, CSS y JavaScript sin frameworks, publicado en GitHub Pages.
 
-### [anonmydoc](https://anonmydoc.net)
+### [anonmydoc](https://anonmydoc.net) · [cómo funciona](https://github.com/josemanuelosorio/anonmydoc)
 
 Quita nombres, RFC, CURP, cuentas, domicilios y contraseñas de un documento antes de usarlo con IA. Los cambia por etiquetas como `[PERSONA_1]` y después restaura la respuesta de la IA con tus datos. También limpia los metadatos de archivos y fotos.
 
 - Todo ocurre en tu navegador: la política de seguridad del sitio le prohíbe conectarse a internet (`connect-src 'none'`), y cualquiera puede comprobarlo en sus cabeceras.
 - Pensado para documentos mexicanos: RFC, CURP, clave de elector, NSS, CLABE, domicilios, expedientes y más.
-- El código es privado.
+- El código es privado; el repositorio explica cómo funciona y cómo se mide, con una prueba ciega de 882 datos en documentos que el motor nunca había visto.
 
 ### [Arbitration Agreement Builder](https://github.com/josemanuelosorio/arbitration-agreement-builder)
 
