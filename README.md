@@ -1,6 +1,6 @@
 # José Osorio
 
-Vengo del derecho fiscal y construyo herramientas web con IA para problemas legales que conozco de cerca: los impuestos de quien gana dinero en plataformas digitales, la privacidad de los documentos que le pasamos a una IA y la redacción de cláusulas de arbitraje. Yo decido el contenido legal y verifico las fuentes; la IA escribe el código bajo mis pruebas.
+Construyo herramientas web problemas legales que conozco de cerca, decido el contenido legal y verifico las fuentes.
 
 ## Proyectos
 
