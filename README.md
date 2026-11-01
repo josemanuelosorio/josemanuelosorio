@@ -1,6 +1,6 @@
-# José Osorio
+# José Osorio 
 
-Construyo herramientas web problemas legales que conozco de cerca, decido el contenido legal y verifico las fuentes.
+Construyo herramientas web para problemas legales que conozco de cerca, decido el contenido legal y verifico las fuentes.
 
 ## Proyectos
 
