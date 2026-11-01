@@ -29,6 +29,14 @@ Cuestionario con lógica condicional que arma una cláusula de arbitraje. Lo con
 - Motor genérico, validador de esquema y 45 comprobaciones golden sobre combinaciones canónicas de respuestas, cada una fijada a su cláusula exacta.
 - El código es privado: el repositorio describe el trabajo sin publicarlo.
 
+### [Sumario](https://github.com/josemanuelosorio/sumario)
+
+Mi programa de lectura diaria. Recoge normas del DOF, reglas fiscales, changelogs y videos; Claude elige qué leer dentro de un tope de minutos y escribe la lectura de cada uno. Corre en mi Mac.
+
+- Python, FastAPI, SQLite y una ventana nativa; Claude entra por el Agent SDK, con cada llamada aislada o limitada a búsqueda web.
+- La llave de API vive en el llavero de macOS y el correo se lee por IMAP en solo lectura.
+- 88 pruebas que corren sin red y sin Claude; el CI corre 87 en cada push (la del lanzador de macOS se salta). Costo medido: 0.034 USD por lectura.
+
 ## Un bug, de principio a fin
 
 En agosto publiqué un cambio en Fisco Abierto que borró por accidente una función y dejó invisible el diagrama de confianza ([676d161](https://github.com/josemanuelosorio/fiscoabierto-web/commit/676d161)). `node --check` no lo vio porque no era un error de sintaxis. Lo arreglé ([461fa6e](https://github.com/josemanuelosorio/fiscoabierto-web/commit/461fa6e)) y escribí una prueba de humo que ejecuta cada script contra un DOM simulado, validada contra ese mismo bug ([336a514](https://github.com/josemanuelosorio/fiscoabierto-web/commit/336a514)). Desde entonces corre antes de cada push que toca JavaScript.
