@@ -27,7 +27,7 @@ Cuestionario con lógica condicional que arma una cláusula de arbitraje. Lo con
 
 - El contenido es dato: preguntas, condiciones y fragmentos de cláusula viven en un modelo JSON que un abogado puede editar sin tocar el motor.
 - Motor genérico, validador de esquema y 45 comprobaciones golden sobre combinaciones canónicas de respuestas, cada una fijada a su cláusula exacta.
-- El código es privado: el repositorio describe el trabajo sin publicarlo.
+- Código publicado y anonimizado, sin la especificación ni las decisiones internas de la firma; el CI valida el modelo y corre las pruebas en cada push.
 
 ### [Sumario](https://github.com/josemanuelosorio/sumario)
 
